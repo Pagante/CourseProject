@@ -1,2 +1,2 @@
 release:python manage.py migrate
-web:gunicorn PortFolioProject.wsgi
+web: gunicorn PortFolioProject.wsgi --log-file -
