@@ -1,0 +1,73 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0MxqyRwuJjnRzcRgqddyDp$eYfWarDY+F/KzfxByfPS0zonLQ67Eadltxub9oNDfy0=",
+        "last_login": "2021-04-18T15:45:16.713Z",
+        "is_superuser": true,
+        "username": "Meshach",
+        "first_name": "",
+        "last_name": "",
+        "email": "meshlrd14@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-18T15:44:49.706Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 1,
+    "fields": {
+        "category": "Beginner",
+        "project_name": "HTML",
+        "image": "Photos/hmtl.png"
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 2,
+    "fields": {
+        "category": "Beginner",
+        "project_name": "Bootstrap",
+        "image": "Photos/Bootstrap.jpg"
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 3,
+    "fields": {
+        "category": "Advance",
+        "project_name": "Java",
+        "image": "Photos/java.png"
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 4,
+    "fields": {
+        "category": "Advance",
+        "project_name": "Python",
+        "image": "Photos/python.png"
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 5,
+    "fields": {
+        "category": "Beginner",
+        "project_name": "CSS",
+        "image": "Photos/css.jpeg"
+    }
+},
+{
+    "model": "Courses.portfolio",
+    "pk": 6,
+    "fields": {
+        "category": "Beginner",
+        "project_name": "Javascript",
+        "image": "Photos/javascript_logo.png"
+    }
+}
+]
