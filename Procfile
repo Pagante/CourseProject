@@ -1,2 +1,2 @@
 release :python manage.py migrate
-web : gunicorn djangoProject.wsgi
+web : gunicorn PortFolioProject.wsgi
